@@ -1,4 +1,5 @@
-#RedditUserMonitor
+RedditUserMonitor
+=
 
 RedditUserMonitor is a lightweight Reddit bot designed 
 to monitor all new comments on specified subreddits, 
@@ -15,7 +16,8 @@ flair the post as something like 'Dev Response'. This allows
 users to see posts that a developer has responded to in an easy and
 obvious way.
 
-##Usage
+Usage
+-
 
 When downloading and running this bot, there are two files
 that you will need to configure before starting the application. 
@@ -58,18 +60,19 @@ that you will need to configure before starting the application.
      days_in_past: 1 
     ```
    
-   * SomeSubreddit: The name of the subreddit to monitor
-   * users: A list of Reddit user names to monitor for
-   * flairs: A list of subreddit user flairs to monitor for
-   * desired_flair: The flair to set on the post when a user/flair is matched
+   * SomeSubreddit: The name of the subreddit to monitor.
+   * users: A list of Reddit user names to monitor for.
+   * flairs: A list of subreddit user flairs to monitor for.
+   * desired_flair: The flair to set on the post when a user/flair is matched.
    * reddit_user: The name of the profile set up in the praw.ini to use 
-   to monitor and make changes to this subreddit
-   * days_in_past: Timeline to check posts in the past when service is run [Optional]
+   to monitor and make changes to this subreddit.
+   * days_in_past: Timeline to check posts in the past when service is run. [Optional]
    
    You can define users, flairs, or both, but you will need at least 
    one of these for the service to function.
    
-## Help
+Help
+-
 
 For any bugs/feature improvements, please use the issue system on this repository.
 
