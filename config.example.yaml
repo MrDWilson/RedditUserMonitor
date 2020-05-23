@@ -1,0 +1,13 @@
+# Define subreddits below in shown format
+
+- SomeSubreddit: # Subreddit name
+  users: # List users here [optional if flairs defined]
+    - SomeUserAccount
+  flairs: # List flairs here [optional if users defined]
+    - special user
+  desired_flair: special user response # Single desired flair to set the recognised posts to
+  reddit_user: my_reddit_user # The name of the profile you define in your praw.ini
+  days_in_past: 1 # The amount of time of posts to check in the past when the service starts [optional]
+
+# Add more rows matching the format above below
+# Warning: Either users and/or flairs must exist, you cannot not provide one
